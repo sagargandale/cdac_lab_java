@@ -15,7 +15,8 @@ public class ExceptionHandlingDivideByZero {
 			}
 			catch(Exception e)
 			{
-				
+				String [] ok= {"2","3"};
+				main(ok);
 				e.printStackTrace();
 			}
 			

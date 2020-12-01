@@ -12,16 +12,15 @@ public class ArrayExceptionTest {
 			
 			int size=sc.nextInt();
 			names=new String[size];
+			System.out.println("Enter strings");
 			for(int i=0;i<names.length;i++)
 			{
 				names[i]=sc.next();
 			}
-			
-			System.out.println("Array :");
-			for(String str : names)
-			{
-				System.out.print(str+" ");
-			}
+			System.out.println("Enter the index to string:");
+			int index=sc.nextInt();
+			System.out.print("String :");
+			System.out.print(names[index-1]);
 		}
 		catch(Exception e)
 		{
